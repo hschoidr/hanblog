@@ -17,5 +17,5 @@ production:
   pool: 5
   database: hanblog_production
   username: deployer
-  password: <%= ENV["HAVLOVE_DATABASE_PASSWORD"] %>
+  password: <%= ENV["HANLOVE_DATABASE_PASSWORD"] %>
   host: localhost
