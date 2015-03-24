@@ -2,8 +2,8 @@
 lock '3.4.0'
 
 set :application, 'hanblog'
-set :repo_url, 'git@example.com:me/my_repo.git'
-set :deploy_to, '/home/deployer/apps/hanlove'
+set :repo_url, 'git@github.com:hschoidr/hanblog.git'
+set :deploy_to, '/home/deployer/apps/hanblog'
 
 # rbenv 환경설정
 set :rbenv_type, :user # or :system, depends on your rbenv setup
