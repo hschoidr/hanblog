@@ -34,6 +34,7 @@ gem 'unicorn'
 # Use Capistrano for deployment
 gem 'capistrano-rails', group: :development
 gem 'capistrano-safe-deploy-to', '~> 1.1.1'
+gem 'capistrano-unicorn-nginx', '2.0.0', group: :development
 gem 'capistrano-rbenv', '~> 2.0' # required
 gem 'capistrano-rbenv-install', '~> 1.2.0', group: :development
 gem 'capistrano-rails-console'

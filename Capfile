@@ -30,9 +30,9 @@ require 'capistrano/rails/migrations'
 require 'capistrano/rails/collection'
 require 'capistrano/rails/migrations'
 require 'capistrano/secrets_yml'
+require 'capistrano/unicorn_nginx'
 # require 'capistrano/passenger'
 # require 'capistrano/bundler'
-# require 'capistrano/unicorn_nginx'
 
 
 

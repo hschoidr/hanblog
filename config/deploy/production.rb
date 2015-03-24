@@ -1,11 +1,11 @@
-role :app, %w{deployer@hanlove.net}
-role :web, %w{deployer@hanlove.net}
-role :db,  %w{deployer@hanlove.net}
+role :app, %w{deployer@hanblog.net}
+role :web, %w{deployer@hanblog.net}
+role :db,  %w{deployer@hanblog.net}
 
-set :nginx_server_name, 'hanlove.net'
+set :nginx_server_name, 'hanblog.net'
 set :unicorn_workers, 4
 
-server 'hanlove.net', user: 'deployer', roles: %w{web app}
+server 'hanblog.net', user: 'deployer', roles: %w{web app}
 
 
 # server-based syntax
